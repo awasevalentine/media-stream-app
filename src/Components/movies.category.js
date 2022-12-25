@@ -64,13 +64,13 @@ function useDebounce(value, delay) {
         </Flex>
 
         <Box mt={{base: "33px", sm:"48px"}} style={conditional}>
-            <Text pl="77px" fontFamily="DM Sans" 
+            <Text pl={{base: "28px", sm:"77px"}} fontFamily="DM Sans" 
             fontWeight="400" fontSize={{base:"18px", md:"24px"}} lineHeight={{base:"23px",md:"31px"}} color="#000000"
             >
                 Movie Category Name
             </Text>
             <Box width="100%" pos="absolute" mt={{base:"26px", sm:"21px", lg:"18px"}}>
-            <Flex className="items" ml="77px" mb="67px" gap={{base: "13px",sm:"10px"}} direction="row" overflowX="scroll" h="100%">
+            <Flex className="items" overflowY="hidden" ml={{base: "28px", sm:"77px"}} mb="67px" gap={{base: "13px",sm:"10px"}} direction="row" overflowX="scroll" h="100%">
                 {
                         movies.map((res)=>{
                             return (

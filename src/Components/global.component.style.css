@@ -33,6 +33,10 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .main_container{
+        position: absolute;
+        margin-top: 34px !important;
+    }
 }
 /* End of smaller screen */
 
