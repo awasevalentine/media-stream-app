@@ -1,0 +1,70 @@
+/* Section for Header */
+.logo_Wrapper{
+    box-sizing: border-box;
+    width: 193px;
+    border: 1px solid #FFFFFF;
+    background-image: url("../Assets/Images/logo/MyTestApp.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.heros_wrapper{
+    width: 100%;
+    border-radius: 0px;
+    background-image: url("../Assets/Images/logo/mobile_hero.png");
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* End */
+
+
+
+/* Media query */
+/* Smaller screen */
+@media screen and (max-width: 479px) {
+    .heros_wrapper{
+        width: 100%;
+        border-radius: 0px;
+        background-image: url("../Assets/Images/logo/xtra_small.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+/* End of smaller screen */
+
+/* Small screen*/
+
+@media  screen and (min-width: 480px) and (max-width: 990px) {
+    .main_container{
+        position: absolute;
+        padding-top: 120px;
+    }
+}
+
+/* End of Small screen */
+
+
+
+/* Laptops Screen */
+@media screen and (min-width: 991px) {
+    .heros_wrapper{
+        width: 100%;
+        border-radius: 0px;
+        background-image: url("../Assets/Images/background/heros.png");
+        background-position: unset;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .main_container{
+        position: absolute;
+        padding-top: 120px;
+    }
+    .items::-webkit-scrollbar { width: 0 !important }
+    .items { overflow: -moz-scrollbars-none; }
+    .items { -ms-overflow-style: none; }
+}
