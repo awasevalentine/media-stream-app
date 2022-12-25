@@ -1,7 +1,7 @@
 import axios  from "axios"
 
-const ApiUrl = "http://www.omdbapi.com/?apikey=3b053d45&s=inception"
-const ApiUrlSearch = "http://www.omdbapi.com/?apikey=3b053d45&s="
+const ApiUrl = "https://www.omdbapi.com/?apikey=3b053d45&s=inception"
+const ApiUrlSearch = "https://www.omdbapi.com/?apikey=3b053d45&s="
 
 export const getMovies = async()=>{
     try{
